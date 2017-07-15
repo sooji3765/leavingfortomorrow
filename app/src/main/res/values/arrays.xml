@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category" >
+        <item>맛집 후기</item>
+        <item>숙소 후기</item>
+        <item>교통 후기</item>
+        <item>코스 추천</item>
+        <item>COFFEESHOP 추천</item>
+        <item>여행 리뷰</item>
+    </string-array>
+</resources>

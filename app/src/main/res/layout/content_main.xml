@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.user.leavingfortomorrow.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            >
+            <Button
+                android:layout_column="1"
+                android:text="BOARD BOARD"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:textSize="12dp"
+                android:padding="70dp"
+                android:background="#DAA520"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <Button
+                android:layout_column="2"
+                android:text="ABOUT EVENT"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:textSize="12dp"
+                android:padding="70dp"
+                android:background="#E1CAF9"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"/></TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+            <Button
+                android:layout_column="1"
+                android:text="FIND FRIENDS"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:textSize="12sp"
+                android:padding="70dp"
+                android:background="#FA8072"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <Button
+                android:layout_column="2"
+                android:text="ABOUT TIPS"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:textSize="12dp"
+                android:padding="70dp"
+                android:background="#99ccff"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            >
+            <Button
+                android:layout_column="1"
+                android:text="INFO"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:textSize="12dp"
+                android:padding="70dp"
+                android:background="#A5FEE3"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <Button
+                android:layout_column="2"
+                android:text="MAP"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:textSize="12dp"
+                android:padding="70dp"
+                android:background="#FFFF99"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"/>
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
